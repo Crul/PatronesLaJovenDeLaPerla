@@ -1,0 +1,249 @@
+html, body {
+	background-color: #666;
+	text-align: center;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: rgb(39, 78, 19);
+}
+
+header {
+	background-color: #7c9a89;
+	background-image: url('img/bgr.jpg');
+	border-bottom: solid 1px #fff;
+}
+
+header img { 
+	max-width: 100%;
+	max-height: 100px;
+	margin: 0;
+}
+
+section {
+	margin: auto;
+	width: 80%;
+	max-width: 960px;
+}
+
+article {
+	margin: auto;
+	background-color: #eee;
+	padding: 12px 48px;
+}
+
+h1 {
+	font-weight: normal;
+	margin: 0;
+	font-size: 250%;
+	background-color: #333;
+	color: #fff;
+}
+
+h2 {
+	font-weight: normal;
+	padding: 0 0 18px 0;
+	margin: 0;
+	font-size: 130%;
+	background-color: #333;
+	color: #ccc;
+}
+
+#downloadSection {
+	display: inline-block;
+	width: 412px;
+}
+
+#downloadLink {
+	display: block;
+	background-color: #fff;
+	text-align: left;
+	border: solid 2px #ddd;
+	text-decoration: none;
+}
+
+#downloadLink:hover {
+	border: solid 2px #00f;
+}
+
+#cover,
+#downloadMsg,
+#donationMsg {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+#cover {
+	width: 180px;
+}
+
+#downloadMsg {
+	width: 200px;
+	margin-left: 12px;
+	padding-top: 24px;
+}
+
+#licenseMsg {
+	font-size: 80%;
+}
+
+#sellForbidenMsg {
+	font-size: 80%;
+	color: #f00;
+}
+
+#donationMsg {
+	text-decoration: none;
+	float: right;
+	width: 260px;
+	padding: 8px;
+	border: solid 1px #fff;
+	background-color: #f8f8f8;
+}
+
+#donationBtn {
+	margin: 18px 0;
+	opacity: 0.85;
+}
+
+#donationMsg:hover #donationBtn {
+	opacity: 1;
+}
+
+#donationMsg:hover #donationThanks {
+	font-weight: bold;
+}
+
+#video {
+	text-align: left;
+	padding-top: 48px;
+}
+
+iframe {
+	width: 560px;
+	height: 315px
+}
+
+#youtubeChannelLink  {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	margin: 12px 0 24px 0;
+}
+
+#youtubeChannelLink img {
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+@media only screen and (max-width: 1080px) {
+
+	#donationMsg {
+		float: none;
+		display: block;
+		width: 80%;
+		margin: 0;
+		margin: 0 auto 18px auto;
+	}
+	
+	#donationBtn {
+		height: 48px;
+	}
+	
+	iframe {
+		width: 480px;
+		height: 270px
+	}
+}
+
+@media only screen and (max-width: 780px) {
+	section {
+		width: 90%;
+	}
+
+
+	article {
+		padding: 12px 24px;
+	}
+
+	h1 {
+		font-size: 200%
+	}
+	
+	h2 {
+		font-size: 110%
+	}
+	
+	iframe {
+		width: 320px;
+		height: 180px
+	}
+	
+	#downloadSection {
+		width: 352px;
+	}
+	
+	#downloadMsg {
+		width: 140px;
+	}
+	
+	#youtubeChannelLink {
+		text-align: center;
+	}
+
+	#youtubeChannelLink img {
+		display: block;
+		margin: 0 auto 8px auto;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	section {
+		width: 100%;
+	}
+	
+	h1 {
+		font-size: 180%
+	}
+	
+	h2 {
+		font-size: 100%
+	}
+	
+	#downloadSection {
+		width: 184px;
+	}
+		
+	#downloadMsg {
+		width: 148px;
+		text-align: center;
+		margin: 12px 18px;
+		padding: 0;
+	}
+}
+
+
+@media only screen and (max-width: 420px) {
+	
+	h1 {
+		font-size: 150%
+	}
+	
+	#donationBtn {
+		height: 36px;
+	}
+	
+	iframe {
+		width: 240px;
+		height: 135px
+	}
+	
+	#youtubeChannelLink {
+		width: 200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
